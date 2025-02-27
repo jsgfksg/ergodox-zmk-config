@@ -17,11 +17,14 @@
 		layer_0 {
 			bindings = <
 				&bootloader
-				&kp GRAVE      &kp NUMBER_1    &kp NUMBER_2 &kp NUMBER_3   &kp NUMBER_4   &kp NUMBER_5     &kp PRINTSCREEN   &none           &kp NUMBER_6 &kp NUMBER_7   &kp NUMBER_8    &kp NUMBER_9  &kp NUMBER_0    &kp K_APPLICATION
-				&kp TAB        &kp Q           &kp W        &kp E          &kp R          &kp T            &kp CAPSLOCK      &kp C_MUTE      &kp Y        &kp U          &kp I           &kp O         &kp P           &kp BACKSLASH
-				&kp ESCAPE     &kp A           &kp S        &kp D          &kp F          &kp G                                              &kp H        &kp J          &kp K           &kp L         &kp SEMICOLON   &kp BACKSPACE
-				&mo LAYER_SYMB &kp Z           &kp X        &kp C          &kp V          &kp B            &kp C_VOLUME_DOWN &kp C_VOLUME_UP &kp N        &kp M          &kp COMMA       &kp PERIOD    &kp SLASH       &mo LAYER_SYMB
-											   &none          &none						     &none        &none                		   
+				&bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none &none &none &none &none   &none   &none   &none   &bootloader
+				&out OUT_USB &kp F1       &kp F2       &kp F3       &kp F4       &none &none &none &none &kp F13 &kp F14 &kp F15 &kp F16 &none
+				&out OUT_BLE &kp F5       &kp F6       &kp F7       &kp F8       &none             &none &kp F17 &kp F18 &kp F19 &kp F20 &none
+				&none        &kp F9       &kp F10      &kp F11      &kp F12      &none &none &none &none &kp F21 &kp F22 &kp F23 &kp F24 &bt BT_CLR
+				&none        &none        &none        &none        &none                                &none   &none   &none   &none   &none
+				                                                                 &none &none &none &none
+				                                                    &none        &none &none &none &none &none
+				                                                                       &none &none
 			>;
 		};
 
