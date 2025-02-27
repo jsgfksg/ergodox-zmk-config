@@ -13,7 +13,6 @@
 / {
 	keymap {
 		compatible = "zmk,keymap";
-
 		layer_0 {
 			bindings = <
                                 &bootloader
