@@ -15,7 +15,6 @@
 		compatible = "zmk,keymap";
 		layer_0 {
 			bindings = <
-                                &bootloader
 				&none &none &none &none &none &none &none &none &none &none &none &none &none &none
 				&none &none &none &none &none &none &none &none &none &none &none &none &none &none
 			        &none &none &none &none &none &none &none &none &none &none &none &none 
